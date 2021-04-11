@@ -1,0 +1,7 @@
+{
+    "name": "vagrant/ejemplo-1",
+    "require": {
+        "duncan3dc/blade": "^4.8",
+        "twig/twig": "1.*"
+    }
+}

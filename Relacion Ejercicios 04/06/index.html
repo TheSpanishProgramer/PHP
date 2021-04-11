@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>
+        6.- Formulario extra
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>6.- Formulario extra</h1>
+<form action="resultadoformulario.php" method="post">
+    <input type="checkbox" value="películas" name="aficiones[]" /><label>Películas</label><br>
+    <input type="checkbox" value="deportes" name="aficiones[]" /><label>Deportes</label><br>
+    <input type="checkbox" value="música" name="aficiones[]" /><label>Música</label><br>
+    <input type="checkbox" value="juegos de mesa" name="aficiones[]" /><label>Juegos de mesa</label><br>
+    <input type="checkbox" value="baile" name="aficiones[]" /><label>Baile</label><br>
+    <input type="checkbox" value="coches" name="aficiones[]" /><label>Coches</label><br>
+    <input type="checkbox" value="lectura" name="aficiones[]" /><label>Lectura</label><br>
+    <input type="checkbox" value="cocina" name="aficiones[]" /><label>Cocina</label><br>
+    <input type="checkbox" value="dormir" name="aficiones[]" /><label>Dormir</label><br>
+    <input type="checkbox" value="videojuegos" name="aficiones[]" /><label>Videojuegos</label>
+    <p>
+        </select><label for="pizza">¿Cuál es tu ingrediente de pizza favorito?<br>(Mantén CTRL para selección múltiple)</br></label>
+    <p>
+        <select id="pizza" name="pizza[]" multiple>
+            <option value="tomate">Tomate</option>
+            <option value="queso">Queso</option>
+            <option value="orégano">Orégano</option>
+            <option value="base">Base</option>
+            <option value="salsa">Salsa</option>
+            <option value="pimiento">Pimiento</option>
+            <option value="salami">Salami</option>
+        </select><br>
+    <br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar Seleccion">
+    </p>
+</form>
+<footer>
+</footer>
+</body>
+</html>

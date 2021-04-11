@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Restaurant App</title>
+        <meta name="Author" content="Juan Jose Fernandez Romero"/>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../../Views/css/style.css">
+        <script type="text/javascript" src="../../Views/js/jquery.js"></script>
+        <script>
+        $(document).ready(function() {
+            waitForIt();
+            
+        });
+            
+         function waitForIt() {
+             $.post("../../Controller/App/hacerPago.php", { hacerpago : true }, function(data) {
+                 if(data == "success") {
+                     window.location.href = "../../Controller/App/app.php";
+                 } else {
+                    setTimeout(waitForIt, 3000);
+                 }
+             });
+        }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div>Dirigase a Caja o espere a un camarero para efectuar el pago</div>
+        </div>
+    </body>
+</html>

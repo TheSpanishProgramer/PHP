@@ -1,0 +1,12 @@
+{% extends "Common/common.html.twig" %}
+{% block header %}
+<script type="text/javascript" src="../../Views/js/cocina.js"></script>
+<link rel="stylesheet" type="text/css" href="../../Views/css/cocina.css">
+{% endblock %}
+
+
+{% block contenido %}
+<div id="listado">
+    {% include ('Cocina/listadococina.html.twig') %}
+</div>
+{% endblock %}

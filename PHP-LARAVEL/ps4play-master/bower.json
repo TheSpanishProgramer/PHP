@@ -1,0 +1,14 @@
+{
+  "name": "ps4play",
+  "version": "0.0.1",
+  "dependencies": {
+    "bootstrap-sass-official": "~3.2.0+1",
+    "modernizr": "~2.8.3"
+  },
+  "devDependencies": {
+    "fontawesome": "~4.2.0",
+    "bootstrapvalidator": "~0.5.1",
+    "tooltipster": "~3.2.6",
+    "animate.css": "~3.2.0"
+  }
+}

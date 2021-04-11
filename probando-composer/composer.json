@@ -1,0 +1,23 @@
+{
+    "name": "prats/probando-composer",
+    "authors": [
+        {
+            "name": "DWEC",
+            "email": "j.a.pratsromero@gmail.com"
+        }
+    ],
+    "require": {
+       "phpmailer/phpmailer": "5.2.*",
+       "raveren/kint": "0.9.*@dev",
+       "fakerphp/faker": "^1.10",
+       "nesbot/carbon": "^2.41",
+       "nategood/httpful": "0.2.20"
+   },
+
+  "autoload": {
+    "psr-4": {
+      "public\\": "public/"
+    }
+  }
+}
+

@@ -1,0 +1,7 @@
+/bootstrap/compiled.php
+/vendor
+composer.phar
+/nbproject/
+**.cache
+/bin/*
+/bin/!.gitkeep

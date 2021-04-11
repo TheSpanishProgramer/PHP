@@ -1,0 +1,101 @@
+body{
+    background: #eee;
+}
+
+@media only screen and (min-width: 601px){
+    nav .nav-wrapper i {
+        line-height: inherit;
+    } 
+}
+
+/* Welcome */
+.card .card-content p.secondary-text{
+    color: #727272;
+}
+
+/* Breadcrumb */
+
+.breadcrumb:before{
+    content: '\/';
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+nav .nav-wrapper{
+    padding-left: 15px;
+}
+
+.breadcrumb{
+    font-size: 15px;
+}
+
+/* Colores del proyecto */
+.primary-text{
+    color: #212121;
+}
+
+.secondary-text{
+    color: #727272;
+}
+
+/* 
+ * Barra de navegación lateral
+ */
+
+
+ul.side-nav.fixed:hover{
+    overflow-y: auto;
+}
+
+.bold>a{
+    font-weight: bold;
+}
+
+ul.side-nav.fixed li a{
+    line-height: 44px;
+    height: 44px;
+}
+
+ul.side-nav.fixed li.logo{
+    margin-top: 38px;
+    margin-bottom: 45px;
+}
+
+/*
+ * Main
+ */
+main{
+    padding-left: 240px;
+}
+@media only screen and (max-width: 992px){
+    main{
+        padding-left: 0;
+    }
+}
+
+/* Listado de cursos */
+span.badge.new:after{
+    content: none;
+}
+
+/* Formularios */
+label {
+    font-size: 1.2rem;
+}
+
+.input-field label{
+    font-size: 1.2rem;
+}
+
+.input-field label.active{
+    font-size: 1.0rem;
+}
+
+select {
+    display: inline-block;
+}
+
+/* Agregar profesores */
+.btn_add{
+    margin-top: 2rem;
+}

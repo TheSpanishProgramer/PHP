@@ -1,0 +1,246 @@
+.contenido {
+	display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navCat {
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nombreCat::first-letter {
+    text-transform: uppercase;
+}
+
+.navCat ul li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.imgProducto, .imgCategoria {
+	box-shadow: 0px 0px 15px 0px #3e0404;
+    border: 1px solid black;
+}
+
+.nombreCat {
+    margin-top: 5px;
+    text-shadow: 0px 0px 8px #3e0404;
+}
+
+.navPro {
+    width: 55%;
+}
+
+.navPro ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.navPro ul li {
+    
+    width: 150px;
+    height: 200px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.contenidoProducto {
+    display: flex;
+    padding: 5px 0;
+    height: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenidoProducto .nombreProducto {
+    display: block;
+	width: 100%;
+}
+
+.nombreProducto::first-letter {
+    text-transform: uppercase;
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    border-bottom: 3px double #6c2b0e;
+}
+
+.navTools {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    width: 30%;
+}
+
+.divhamburguesa {
+    display: none;
+}
+
+.carritoP {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+
+#listaCarrito li, #listaPedido li {
+    display: flex;
+    width: 100%;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    flex-flow: row;
+}
+
+#listaCarrito li .nombreProducto, #listaPedido li .nombreProducto {
+    
+    display: inline-block;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 60%;
+}
+
+.borrarCarrito {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    width: 30%;
+}
+
+.precio {
+	margin-left: 5px;
+    
+}
+
+.cantidad {
+    display: inline-block;
+    margin-right: 5px;
+    width: 10%;
+}
+
+.pedidoP {
+    width: 100%;
+    text-align: center;
+}
+
+#listaPedido li div .moneda {
+    margin-right: 5px;
+}
+
+#carrito {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 150px;
+    margin-bottom: 5px;
+}
+
+#carrito::-webkit-scrollbar {
+	width: 8px;
+	background-color: #ffffff;
+}
+
+#carrito::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #5d0606;
+}
+
+
+#pedido ul {
+    overflow-y: auto;
+    max-height: 150px;
+    margin-bottom: 5px;
+}
+
+#pedido ul::-webkit-scrollbar {
+    width: 8px;
+	background-color: #ffffff;
+}
+
+#pedido ul::-webkit-scrollbar-thumb {
+	border-radius: 3px;
+    background-color: #5d0606;
+}
+
+
+@media (max-width: 950px) {
+    
+    .divhamburguesa {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    
+    .hamburguesa {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .carritoP {
+        display: none;
+        position: absolute;
+        width: 90%;
+        height: 250px;
+        margin-left: 5%;
+        top: 210px;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.95);
+    }
+    
+    .pedidoP {
+        display: none;
+        position: absolute;
+        width: 90%;
+        height: 250px;
+        margin-left: 5%;
+        top: 460px;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.85);
+    }
+    
+    #botonPedir {
+        color: #cecece;
+        background-color: rgba(96, 15, 5, 0.85);
+    }
+    
+    .navPro {
+        width: 50%;
+    }
+    
+    .navCat {
+	    width: 35%;
+    }
+    
+    .navTools {
+	    width: 15%;
+    }
+    
+    .navPro ul {
+        justify-content: center;
+    }
+    
+    button {
+        width: 75px;
+    }
+    
+    h3 {
+        overflow: hidden;
+        font-size: 1.05em;
+        text-overflow: ellipsis; 
+    }
+    
+}

@@ -1,0 +1,6 @@
+{
+  "name" : "06-composer/ejercicio1",
+  "require": {
+    "phpunit/php-timer" : "2.1.2"
+  }
+}

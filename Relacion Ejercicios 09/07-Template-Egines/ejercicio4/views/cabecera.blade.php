@@ -1,0 +1,1 @@
+<p>Listado de zapatillas de la tienda {{ $tienda }}</p>

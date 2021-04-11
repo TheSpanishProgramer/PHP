@@ -1,0 +1,6 @@
+{
+  "name": "07-template-engines/ejemplo-1",
+  "require": {
+    "duncan3dc/blade": "^4.8"
+  }
+}

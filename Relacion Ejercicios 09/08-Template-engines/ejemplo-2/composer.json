@@ -1,0 +1,11 @@
+{
+    "name": "vagrant/ejemplo-2",
+    "require": {
+        "duncan3dc/blade": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Egibide\\":"./"
+        }
+    }
+}

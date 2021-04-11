@@ -1,0 +1,1 @@
+<p>Listado de zapatillas de la tienda <?php echo e($tienda); ?></p><?php /**PATH /vagrant/07-Template-Egines/ejercicio6/views/cabecera.blade.php ENDPATH**/ ?>

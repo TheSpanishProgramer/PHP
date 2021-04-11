@@ -1,0 +1,14 @@
+.env
+vendor/
+bin/
+storage/exports/
+public/bower_components/*
+public/*.pdf
+/node_modules
+.vscode/
+*.log
+database/*.sqlite
+database/backups/*.sql
+.htaccess
+atyc.backup
+composer.phar

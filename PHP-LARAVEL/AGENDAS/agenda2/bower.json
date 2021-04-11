@@ -1,0 +1,29 @@
+{
+  "name": "Agenda de Visitação",
+  "authors": [
+    "David Alves de Souza <alves.david@outlook.com>"
+  ],
+  "description": "Agenda para organizar visitações às obras.",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "obra",
+    "agenda"
+  ],
+  "license": "MIT",
+  "homepage": "agenda.integrapp.info",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "bootstrap": "^3.3.6",
+    "components-font-awesome": "^4.5.0",
+    "sweetalert2": "^0.3.4",
+    "bootstrap-datepicker": "^1.6.0"
+  }
+}

@@ -1,0 +1,1 @@
+<img src="crea_imagen.php? angle=<?PHP echo $_REQUEST ["angle"];?>">

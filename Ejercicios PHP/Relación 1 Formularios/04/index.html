@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>
+        4 - Correo y menú
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>4 - Correo y menú</h1>
+<form action="resultadoformulario.php" method="get">
+    <p><label>Indique su dirección de correo: <input type="email" name="correo" size="42"></label></p>
+    <p><label>Confirme su dirección de correo: <input type="email" name="correo2" size="40"></label></p>
+    <p>
+        Indique si quiere recibir correos nuestros:
+        <select name="recibir">
+            <option value="-1">...</option>
+            <option value="1">Sí</option>
+            <option value="0">No</option>
+        </select>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </p>
+</form>
+<footer>
+</footer>
+</body>
+</html>

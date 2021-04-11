@@ -1,0 +1,338 @@
+@import "compass/css3";
+@import "vars";
+
+@mixin dimensions($height, $width){
+
+	height: $height;
+	width: $width;
+}
+
+html, body{
+
+	height: 100%;
+}
+
+body{
+
+	padding-top: 70px;
+	font-family: $main-font;
+	font-weight: 300;
+	color: $light-gray-text;
+}
+
+footer{
+
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	height: 60px;
+	margin-top: 100px;
+	background-color: #ffffff;
+
+}
+
+#wrap{
+
+	min-height: 100%;
+	height: auto;
+	/* Negate indent footer by its height */
+	margin: 0 auto -60px;
+	/* Pad bottom by footer height */
+	padding: 0 0 60px;
+}
+
+#header{
+
+	margin-bottom: 50px;
+}
+
+#game-info{
+
+	margin-bottom: 150px;
+}
+
+#form-element{
+
+	margin-bottom: 20px;
+}
+
+span{
+
+	&#title{
+		font-size: 20px;
+		font-weight: bold;
+	}
+	&#username{
+		font-size: 10px;
+		color: $username-color;
+	}
+	&#meta{
+		font-size: 10px;
+	}
+}
+
+.attention{
+
+	margin: 0 auto 0 auto;
+	width: 40%;
+}
+
+.thumb{
+
+	margin-bottom: 30px;
+}
+
+.image-small{
+
+	@include dimensions(100px, 75px);
+}
+
+.image-medium{
+
+	@include dimensions(250px, 175px);
+}
+
+.games-list{
+
+	margin-bottom: 50px !important;
+	padding-bottom: 10px;
+	border-bottom: solid thin $games-border-bottom-color;
+}
+
+div{
+
+	&.star{
+		
+		font-size: 10px;
+		color: $golden-yellow-stars;
+	}
+
+	&.customer-review{
+
+		color: $golden-yellow-stars;
+	}
+
+	&.game-review{
+
+		@extend .star;
+		display: inline-block;
+		+a{
+			font-size: 17px;
+			margin-left: 7px;
+		}
+		+a:hover{
+			text-decoration: underline !important;
+			color: $navy-blue-reviews-link;
+		}
+	}
+}
+
+#purchase-btn{
+
+	padding-left: 10px;
+}
+
+.top-game{
+	
+	@include dimensions($top-game-height, $top-game-width);
+}
+
+a{
+	color: $light-gray-links;
+	text-decoration: none !important;
+	&:hover{
+		color: $turquoise;
+	}
+}
+
+a, button{
+
+	outline: 0 !important;
+}
+
+.thumbnail{
+	
+	text-decoration: none;
+	color: #000000;
+	
+	div{
+		h4:hover{
+			text-decoration: underline;
+		}
+	}
+}
+
+
+.navbar-nav{
+
+	>li{
+		>a:hover{
+
+			background-color: $turquoise !important;
+			color: $white !important;
+		}
+	}
+}
+
+.review{
+
+	margin-bottom: 30px;
+}
+
+::selection{
+
+	background-color: $turquoise;
+	color: $white;
+}
+
+::-moz-selection{
+
+	@extend ::selection;
+}
+
+.shift-right-xs{
+
+	margin-left: 2px;
+}
+
+.shift-right-sm{
+
+	margin-left: 10px;
+}
+
+.shift-right-md{
+
+	margin-left: 20px;
+}
+
+.shift-right-lg{
+
+	margin-left: 50px;
+}
+
+.push-down-xs{
+	
+	margin-top: 25px;
+}
+
+.push-down-sm{
+
+	margin-top: 75px;
+}
+
+.push-down-md{
+
+	margin-top: 100px;
+}
+
+.push-down-lg{
+
+	margin-top: 150px;
+}
+
+.push-down-xl{
+
+	margin-top: 200px;
+}
+
+.push-down-xxl{
+
+	margin-top: 900px;
+}
+
+.top-game-header{
+
+	color: $turquoise;
+	font-weight: 100;
+	font-size: 80px;
+	line-height: 80px;
+}
+
+.top-game-link{
+
+	text-decoration: none !important;
+	&:hover{
+		color: $turquoise;
+	}
+}
+
+.review-error{
+
+	color: $red-review-error;
+}
+
+.inner-site-header{
+
+	color: $turquoise;
+	font-weight: 100;
+	font-size: 40px;
+}
+
+.contact{
+	
+	font-family: $contact-font;
+	font-size: 20px;
+	color: $fuschia-contact-link;
+	&:hover{
+		font-style: italic;
+		color: $fuschia-contact-link;
+	}
+}
+
+.top-game-covers{
+
+	margin-bottom: 30px;
+}
+
+.btn.btn-primary{
+	
+	background-color: $light-gray-text !important;
+	border-color: $light-gray-text !important;
+	&:hover{
+		background-color: $turquoise !important;
+		border-color: $turquoise !important;
+	}
+}
+
+li{
+	>a{
+		>i{
+			font-size: 25px !important;
+		}
+	}
+}
+
+.confirmation-message{
+
+	font-size: 17px;
+	~a{
+		font-size: 12px;
+		color: $fuschia-conformation-message;
+	}
+}
+
+@media  screen and (max-width: $break-small) {
+
+	.top-game-header{
+
+		font-size: 40px;
+	}
+	.page-header{
+
+		text-align: center;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

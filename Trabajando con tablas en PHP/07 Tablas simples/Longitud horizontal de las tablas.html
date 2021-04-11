@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Tabla que ocupa el 50 % de la pantalla, y cuyas celdas están dimensionadas al 50 % cada una respecto a la longitud total de la tabla
+
+<TABLE BORDER WIDTH="50%">
+    <TR><TD>Width=50%</TD><TD>Width=50%</TD>
+    </TR>
+    <TR><TD>Celda 3</TD><TD>Celda 4</TD>
+    </TR>
+</TABLE>
+
+Tabla dimensionada al 50 % de la pantalla, celdas sin dimensionar. Obsévese que se alargan más de lo que lo harían sin forzar la longitud de la tabla
+
+<TABLE BORDER WIDTH="50%">
+    <TR><TD>Celda 1</TD><TD>2</TD>
+    </TR>
+    <TR><TD>Celda 3</TD><TD>4</TD>
+    </TR>
+</TABLE>
+
+El mismo efecto anterior, pero con la tabla dimensionada al 100 %
+
+<TABLE BORDER WIDTH="100%">
+    <TR><TD>WIDTH=100%</TD><TD>Celda 2</TD>
+    </TR>
+    <TR><TD>3</TD><TD>Celda 4</TD>
+    </TR>
+</TABLE>
+
+Tabla forzada al 50 % de la página, conteniendo otra tabla anidada en una de sus celdas. La segunda tabla está forzada a ocupar el 100 % de la celda receptora.
+
+<TABLE BORDER WIDTH="50%">
+    <TR><TD>Item 1</TD><TD>Item 2</TD>
+    </TR>
+    <TR><TD>
+        <TABLE BORDER WIDTH=100%>
+            <TR><TD>Item A</TD><TD>Item B</TD>
+            </TR>
+        </TABLE>
+    </TD>
+        <TD>Item 4</TD>
+    </TR>
+</TABLE>
+</body>
+</html>

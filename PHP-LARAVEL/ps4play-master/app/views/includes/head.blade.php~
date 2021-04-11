@@ -1,0 +1,13 @@
+
+<link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+{{ HTML::style('css/bootstrap.min.css') }}
+{{ HTML::style('css/jquery.raty.css') }}
+{{ HTML::style('css/font-awesome.min.css') }}
+{{ HTML::style('css/my-styles.css') }}
+<meta charset="utf-8">
+<meta name="description" content="Playstation 4 Game Store">
+<meta name="author" content="Kevin Garrett">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>PS4Play</title>
+

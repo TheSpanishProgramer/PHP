@@ -1,0 +1,58 @@
+
+.js .busqueda{
+	display: block;
+}
+
+.js .menuppal{
+	display: block;
+}
+
+.js .menuser{
+	display: none;
+}
+
+js .acordeon{
+	display: none;
+}
+
+js .calendario{
+	display: none;
+}
+
+js .ordenables{
+	display: none;
+}
+
+js .listas{
+	display: none;
+}
+
+js .estadisticas{
+	display: none;
+}
+
+
+/*
+js .notificaciones{
+	display: none;
+}
+
+js .columnas{
+	display: none;
+}
+
+js .dlg{
+	display: block;
+}
+
+js .navegacion{
+	display: none;
+}
+*/
+/*Si el navegador no tiene activado JavaScript
+.padss20{
+	display: none;
+}
+.hola{
+	display:none;
+}*/

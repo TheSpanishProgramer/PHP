@@ -1,0 +1,11 @@
+{
+  "name": "07-template-engines/ejercicio-5",
+  "require": {
+    "duncan3dc/blade": "^4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ejercicio5\\Models\\" : "Models/"
+    }
+  }
+}

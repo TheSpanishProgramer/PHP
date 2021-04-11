@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Una tabla de cuatro celdas. Cada una de un color.
+
+<TABLE BORDER>
+    <TR><TD BGCOLOR="RED">Texto ROJO</TD>
+        <TD BGCOLOR="green">Texto VERDE</TD>
+    </TR>
+
+    <TR><TD BGCOLOR="blue">Texto AZUL</TD>
+        <TD BGCOLOR="YELLOW">Texto AMARILLO</TD>
+    </TR>
+</TABLE>
+En este ejemplo se ha dado color individualmente a cada celda. El atributo BGCOLOR="color" puede utilizarse en cada
+elemento de la tabla para efectos globales.
+Por ejemplo, para hacer toda la tabla en rojo, sólo sería necesario escribir:
+
+<TABLE BORDER BGCOLOR="red">
+    ....
+    ....
+</TABLE>
+Para toda la línea:
+<TABLE BORDER>
+    <TR BGCOLOR="red"><TD> texto </TD></TR>
+    ....
+</TABLE>
+También se puede usar una imagen como fondo de toda la tabla:
+<TABLE BORDER BACKGROUND="yellow_r.gif">
+    ....
+    ....
+</TABLE>
+De sólo una celda:
+<TABLE BORDER>
+    <TR><TD BACKGROUND="yellow_r.gif"> texto </TD></TR>
+    ....
+</TABLE>
+O de toda la fila:
+<TABLE BORDER >
+    <TR BACKGROUND="yellow_r.gif"><TD> texto </TD></TR>
+    ....
+</TABLE>
+</body>
+</html>

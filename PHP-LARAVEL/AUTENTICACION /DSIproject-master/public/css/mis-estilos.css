@@ -1,0 +1,79 @@
+/********************************* Formulario *********************************/
+
+.input-alinear {
+    padding-top: 7px;
+}
+
+.input-btn-alinear .input-group {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.search-margen {
+	padding-bottom: 15px;
+}
+
+/************************************ Icono ***********************************/
+
+.color-graduation-cap {
+    color: #367fa9;
+}
+
+/*********************************** Imagen ***********************************/
+
+.img-detalle-usuario {
+	height: 250px;
+	width: 250px;
+}
+
+/************************************ Login ***********************************/
+
+.invalid-feedback {
+    color: #ff0000;
+}
+
+.login-fondo {
+    background-color: #222d32;
+}
+
+.login-logo-color {
+    color: #fff;
+}
+
+/*********************************** Sidebar **********************************/
+
+.logo-mini-tamanio {
+    height: 40px;
+    width: 40px;
+}
+
+/************************************ Tabla ***********************************/
+
+.table-quitar-margen {
+    margin-bottom: 0;
+}
+
+.table thead tr th,
+.table tbody tr th,
+.table tfoot tr th,
+.table thead tr td,
+.table tbody tr td,
+.table tfoot tr td {
+    vertical-align: middle;
+}
+
+.tabla-letra-vertical {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+/*
+    display: block;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+
+    writing-mode: tb-rl;
+
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+*/

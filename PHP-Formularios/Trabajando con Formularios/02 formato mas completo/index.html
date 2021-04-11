@@ -1,0 +1,49 @@
+Vamos a ver los aspectos más característicos:
+
+El atributo maxlength limita el número de caracteres para una caja de texto.
+Contraseña es del tipo password, lo que permite ocultar los caracteres con * cuando se escribe.
+Educación es un elemento select, que permite seleccionar options en una lista. El texto en el atributo value es el que
+se enviará a través del formulario. El atributo selected permite mostrar el seleccionado por defecto.
+Nacionalidad es del tipo radio, los elementos radio del mismo grupo han de tener un único atributo name y sólo se puede
+seleccionar uno.
+Los idiomas están en un elemento checkbox, que permite enviar varios datos en forma de array si se indica en el atributo
+name con corchetes.
+Se puede añadir un atributo checked como seleccionado por defecto.
+En action se ha puesto _<?php echo htmlespecialchars($_SERVER["PHPSELF"]); ?>.
+$_SERVER["PHP_SELF"] es una superglobal que devuelve el nombre del archivo en el que se encuentra el formulario,
+lo que hace que los datos se envíen al mismo archivo, en lugar de llevarlos a otro archivo para tratarlos.
+Si se emplea esta forma de indicar el archivo para action, es necesario usar la función htmlespecialchars(),
+que convierte caracteres especiales en entidades HTML previniendo posibles ataques Cross-site Scripting.
+
+<h2>Formulario:</h2>
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+Nombre:
+<input type="text" name="nombre" maxlength="50"><br>
+Contraseña:
+<input type="password" name="password"><br>
+Educacion:
+<select name="educacion">
+    <option value="sin-estudios">Sin estudios</option>
+    <option value="educacion-obligatoria" selected="selected">Educación Obligatoria</option>
+    <option value="formacion-profesional">Formación profesional</option>
+    <option value="universidad">Universidad</option>
+</select> <br>
+Nacionalidad:
+<input type="radio" name="nacionalidad" value="hispana">Hispana</input>
+<input type="radio" name="nacionalidad" value="otra">Otra</input><br>
+Idiomas:
+<input type="checkbox" name="idiomas[]" value="español" checked="checked">Español</input>
+<input type="checkbox" name="idiomas[]" value="inglés">Inglés</input>
+<input type="checkbox" name="idiomas[]" value="francés">Francés</input>
+<input type="checkbox" name="idiomas[]" value="aleman">Alemán</input><br>
+Email:
+<input type="text" name="email"><br>
+Sitio Web:
+<input type="text" name="sitioweb"><br>
+// Botón de enviar
+<input type="submit" name="submit" value="Enviar">
+</form>
+</body>
+
+
+</html>

@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: AppIetal
+        psr4_prefix: AppIetal
+        src_path: app

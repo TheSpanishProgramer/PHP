@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Tabla que solamente muestra los cuatro bordes
+
+<TABLE FRAME="border" RULES="none">
+    <TR>
+        <TD>A</TD> <TD>B</TD> <TD>C</TD>
+    </TR>
+    <TR>
+        <TD>D</TD> <TD>E</TD> <TD>F</TD>
+    </TR>
+</TABLE>
+
+Tabla que solamente muestra los bordes superior e inferior
+
+<TABLE FRAME="hsides" RULES="none">
+    <TR>
+        <TD>A</TD> <TD>B</TD> <TD>C</TD>
+    </TR>
+    <TR>
+        <TD>D</TD> <TD>E</TD> <TD>F</TD>
+    </TR>
+</TABLE>
+
+Tabla que solamente muestra los bordes izquierdo y derecho
+
+<TABLE FRAME="vsides" RULES="none">
+    <TR>
+        <TD>A</TD> <TD>B</TD> <TD>C</TD>
+    </TR>
+    <TR>
+        <TD>D</TD> <TD>E</TD> <TD>F</TD>
+    </TR>
+</TABLE>
+
+Tabla que solamente muestra las líneas de división entre columnas
+
+<TABLE FRAME="void" RULES="cols">
+    <TR>
+        <TD>A</TD> <TD>B</TD> <TD>C</TD>
+    </TR>
+    <TR>
+        <TD>D</TD> <TD>E</TD> <TD>F</TD>
+    </TR>
+</TABLE>
+
+Tabla que solamente muestra las líneas de división entre filas
+
+<TABLE FRAME="void" RULES="rows">
+    <TR>
+        <TD>A</TD> <TD>B</TD> <TD>C</TD>
+    </TR>
+    <TR>
+        <TD>D</TD> <TD>E</TD> <TD>F</TD>
+    </TR>
+</TABLE>
+
+Ejemplo de tabla con agrupamientos de columnas y filas
+
+<TABLE border="1" frame="border" rules="groups">
+    <CAPTION>Ejemplo de grupos de columnas y líneas</CAPTION>
+    <COLGROUP align="center">
+    <COLGROUP align="left">
+    <COLGROUP align="center" span="2">
+    <COLGROUP align="center" span="3">
+
+    <THEAD valign="top">
+    <TR>
+        <TH>Columna1</TH>
+        <TH>Columna2</TH>
+        <TH>Columna3</TH>
+        <TH>Columna4</TH>
+        <TH>Columna5</TH>
+        <TH>Columna6</TH>
+        <TH>Columna7</TH></TR>
+    <TBODY>
+    <TR><TD>C1L1<TD>C2L1<TD>C3L1<TD>C4L1<TD>C5L1<TD>C6L1<TD>C7L1</TR>
+    <TR><TD>C1L2<TD>C2L2<TD>C3L2<TD>C4L2<TD>C5L2<TD>C6L2<TD>C7L2</TR>
+    <TR><TD>C1L3<TD>C2L3<TD>C3L3<TD>C4L3<TD>C5L3<TD>C6L3<TD>C7L3</TR>
+    <TR><TD>C1L4<TD>C2L4<TD>C3L4<TD>C4L4<TD>C5L4<TD>C6L4<TD>C7L4</TR>
+    <TBODY>
+    <TR><TD>C1L5<TD>C2L5<TD>C3L5<TD>C4L5<TD>C5L5<TD>C6L5<TD>C7L5</TR>
+    <TR><TD>C1L6<TD>C2L6<TD>C3L6<TD>C4L6<TD>C5L6<TD>C6L6<TD>C7L6</TR>
+    <TFOOT>
+    <TR><TD>C1L7<TD>C2L7<TD>C3L7<TD>C4L7<TD>C5L7<TD>C6L7<TD>C7L7</TR>
+</TABLE>
+
+Como puedes ver, existe un agrupamiento desde la línea 1 a la 4, y otro de la 5 a la 6. A su vez, las columnas 3 y 4 forman un grupo, y la 5, 6 y 7 otro.
+Los dos agrupamientos de columnas se definen con las instrucciones:
+
+<COLGROUP align="center" span="2">
+<COLGROUP align="center" span="3">
+    Hay cuatro grupos de filas: La que aparece debajo de las cabeceras la escribe < THEAD>
+Las dos líneas que separan los grupos de filas centrales las producen las dos instrucciones
+< TBODY>, Y la última la produce < TFOOT>.
+Por supuesto, no es obligado que esten todas, puedes poner solamente las que necesites.
+Todo esto funciona solamente si en la definición de la tabla se incluye el atributo rules="groups"
+</body>
+</html>

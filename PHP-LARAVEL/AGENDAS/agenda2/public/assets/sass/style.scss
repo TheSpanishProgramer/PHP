@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300italic);
+
+@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+    -webkit-box-shadow:$top $left $blur $color #{$inset};
+    -moz-box-shadow:$top $left $blur $color #{$inset};
+    box-shadow:$top $left $blur $color #{$inset};
+}
+
+// Layout login
+.login {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 400px;
+    height: 350px;
+    padding: 10px 35px;
+    top: 50%;
+    margin-top: -200px;
+    left: 50%;
+    margin-left: -175px;
+    position: absolute;
+    border: 2px solid #EEE;
+
+    input {
+        height: 50px;
+    }
+
+    textarea:focus, input:focus, select:focus {
+        box-shadow: 0 0 0 0;
+        outline: 0;
+        radius: 0;
+    }
+}
+
+// Layout sistema
+body {
+    background-color: #FCFCFC;
+}
+
+.container-custom {
+    padding: 0 10% !important;
+}
+
+table {
+    thead {
+        th{
+            text-align: center;
+        }
+    }
+    tr {
+        td {
+            text-align: center;
+        }
+    }
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,12 @@
+{
+    "name": "padrino/plataforma-virtual",
+    "require": {
+        "dompdf/dompdf": "^0.8.2"
+    },
+    "authors": [
+        {
+            "name": "Jose Lopez",
+            "email": "jflo1937@gmail.com"
+        }
+    ]
+}

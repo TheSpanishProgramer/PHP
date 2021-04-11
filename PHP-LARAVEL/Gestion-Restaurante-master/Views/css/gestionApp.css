@@ -1,0 +1,327 @@
+.contenido {
+    min-height: 500px;
+    margin-top: 0
+}
+
+navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+navbar ul {
+    width: 50%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+navbar ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 40px;
+    border-top: 2px solid #2a0303;
+    border-bottom: 2px solid #2a0303;
+    border-left: 1px solid #2a0303;
+    border-right: 1px solid #2a0303;
+    background: linear-gradient(to bottom, #845129 0%, #d6baa3 50%, #d6baa3 51%, #845129 100%);
+    box-shadow: 0px 0px 10px 0px #3e0404;
+    padding: 0;
+    cursor: pointer;
+}
+
+navbar div {
+    display: flex;
+    width: 50%;
+    align-self: center;
+    justify-content: flex-end;
+}
+
+navbar div input {
+    padding: 0;
+    margin: 0;
+}
+
+navbar div .icon {
+    padding: 0;
+    margin: 0;
+    margin-right: 25px;
+}
+
+.activated {
+    background-color: #845129;
+    box-shadow: 0px 0px 15px 0px black inset;
+}
+
+header {
+    margin-bottom: 0;
+}
+
+img {
+    margin: 0 5px;
+}
+
+.categorias {
+    list-style: none;
+    padding: 0;
+}
+
+.addCategoria {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background: linear-gradient(to bottom, #845129 0%, #e8d7c9 35%, #e8d7c9 60%, #845129 100%);
+    border-top: 2px solid black;
+    border-bottom: 1px solid black;
+}
+
+form {
+    width: 100%;
+}
+
+.formCat {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.infoCatForm {
+    display: inline-flex;
+    width: 75%;
+}
+
+.botonesCat {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 20%;
+}
+
+.botonesCat input {
+    margin-right: 10px;
+}
+
+.categoria {
+    min-height: 50px;
+    background-color: rgba(139, 114, 95, 0.6);
+}
+
+.categoria:last-child .headerCategoria {
+    
+    border-bottom: 2px solid black !important;
+    
+}
+
+.headerCategoria {
+    padding-left: 10px;
+    height: 55px;
+    background: linear-gradient(to bottom, #845129 0%, #e8d7c9 35%, #e8d7c9 60%, #845129 100%);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 0px 5px 0px #845129;
+    display: flex;
+    align-items: center;
+}
+
+.infoHeader {
+    width: 95%;
+}
+
+.iconos {
+    display: flex;
+    width: 5%;
+    align-items: center;
+    align-self: flex-end;
+    height: 50px;
+    justify-content: flex-end;
+}
+
+.productos {
+    padding: 0;
+    list-style: circle;
+    list-style-position: inside;
+    box-shadow: 0px 0px 10px 0px #845129 inset;
+    
+}
+
+.producto {
+    padding: 10px 0 10px 25px;
+    border-bottom: 2px solid rgba(132, 81, 41, 0.6);
+    border-bottom-right-radius: 8px;
+}
+
+.headerProducto {
+	display: inline-flex;
+    width: 95%;
+    height: 100%;
+    align-items: center;
+}
+
+.iconosPro {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    align-self: flex-end;
+    height: 30px;
+    justify-content: flex-end;
+}
+
+.infoProducto {
+    padding-top: 15px; 
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.precio {
+    margin-left: 10px;
+}
+
+.infoPro2 {
+    display: inline-block;
+    align-self: center;
+    width: 80%;
+    
+}
+
+.infoPro2 p {
+    width: 100%;
+}
+
+.infoForm {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+
+.imgProDiv {
+    display: inline-flex;
+    margin-right: 25px;
+    align-items: center;
+    width: 20%;
+    
+}
+
+.imgForm {
+    display: inline-flex;
+    margin-right: 25px;
+    align-items: center;
+    width: 30%;
+    overflow: hidden;
+}
+
+.descForm {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.descForm p {
+    display: flex;
+    width: 100%;
+    margin: 0 0;
+    align-self: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.descForm textarea {
+    display: block;
+    width: 300px;
+    height: 75px;
+	
+}
+
+.otrosForm {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+
+.otrosForm p {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.botones {
+    display: inline-flex;
+    width: 20%;
+    padding-right: 25px;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+
+.botones input {
+    margin-right: 10px;
+}
+
+/***********************************/
+/***********************************/
+/*********   Usuario   *************/
+/***********************************/
+/***********************************/
+
+.formUser {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.infoUserForm {
+    display: inline-flex;
+    align-items: center;
+    width: 75%;
+}
+
+.infoUserForm input {
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.infoUserForm strong {
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.botonesUser {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 23%;
+}
+
+.botonesUser input {
+    margin-right: 10px;
+}
+
+
+.infoHeaderUsuario {
+    width: 85%;
+}
+
+.infoHeaderUsuario span{
+	margin-left: 5px;
+    margin-right: 20px;
+}
+
+.iconosUsuario {
+    display: flex;
+    width: 15%;
+    align-items: center;
+    align-self: flex-end;
+    height: 50px;
+    justify-content: flex-end;
+}
+
+.passwordCancelar {
+    box-shadow: 0px 0px 20px 0px red inset; 
+}
+
+.passwordEditAnchor {
+    cursor: pointer;
+}
+
+

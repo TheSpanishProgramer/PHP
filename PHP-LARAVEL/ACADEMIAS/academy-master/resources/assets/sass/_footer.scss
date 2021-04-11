@@ -1,0 +1,14 @@
+.main-footer {
+  width: 100%;
+  background-color: #f5f5f5;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  padding: 1em 0;
+
+  h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: lighten(#333, 25%);
+    margin: 0;
+  }
+}

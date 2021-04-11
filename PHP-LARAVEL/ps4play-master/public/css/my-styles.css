@@ -1,0 +1,296 @@
+
+    html, body{
+    	height: 100%;
+   
+    }
+
+	a{
+		color: #80808F;
+		text-decoration: none !important;
+		font-family: "Roboto";
+   		font-weight: 300;
+	}
+
+	#top-game{
+		height: 250px;
+		width: 175px;
+	}
+
+    body{
+    	padding-top: 70px;
+		font-family: "Roboto";
+   		font-weight: 300;
+   		color: #7E7E7E;
+		
+    }
+
+    .navbar{
+    	padding-right: 15px; /*remove*/
+    }
+
+	.navbar-nav > li > a:hover{
+		background: #00CED1 !important;
+		color: #ffffff !important;
+	}
+	::selection {color: #ffffff; background: #00CED1;}
+	::-moz-selection{color: #ffffff; background: #00CED1;}
+
+	
+
+	footer{ text-align: center;}
+
+	a, button{outline: 0 !important;}
+
+	.thumbnail{ 
+		text-decoration: none !important; 
+		color: black !important;
+	}
+
+	.thumbnail div h4:hover{
+		text-decoration: underline;
+	}
+	
+	#header{
+		margin-bottom: 50px;
+	}
+
+	#form-element{
+		margin-bottom: 20px;
+	}
+
+	#game-info{ 
+		margin-bottom: 150px;
+	}
+
+	.attention{
+		margin: 0 auto 0 auto;
+  		width: 40%;
+	}
+
+	#welcome{
+		color: gray !important;
+		
+	}
+	
+	.thumb{
+		margin-bottom: 30px;
+	}
+
+	#thumb{/*image-small*/
+		width: 75px !important;
+		height: 100px !important;
+	}
+	
+	.games-list{
+		margin-bottom: 50px !important;
+		border-bottom: solid thin rgba(0,0,0,0.1) !important;
+		padding-bottom: 10px;
+	}
+
+	ul{
+		list-style-type: none;
+	}
+
+	div.customer-review{
+		color: #FCDC3B; /*use sass to factor this out*/
+	}
+
+	.review-title{
+		color: #7E7E7E;
+	}
+
+	div.star{
+		font-size: 10px;
+		/*color: rgba(255,223,0, 1.0);*/
+		color: #FCDC3B;
+	}
+
+	div.game-review{
+		font-size: 10px;
+		/*color: rgba(255,223,0, 1.0);*/
+		color: #FCDC3B;
+		display: inline-block;
+	}
+
+	div.game-review + a{
+		font-size: 17px;
+		margin-left: 7px;
+	}
+
+	div.game-review + a:hover{
+		text-decoration: underline !important;
+		color: #0054A5;
+	}
+
+	#purchase-btn{
+		padding-left: 10px;
+	}
+
+	#game-grid{
+		border-bottom: solid thin rgba(0,0,0,0.1) !important;
+		padding-bottom: 10px;
+	}
+	
+
+	#wrap{
+  			
+  		min-height: 100%;
+  		height: auto;
+  		/* Negative indent footer by its height */
+  		margin: 0 auto -60px;
+  		/* Pad bottom by footer height */
+  		padding: 0 0 60px;
+	}
+
+	/* Set the fixed height of the footer here */
+	footer{
+  		position: relative;
+  		bottom: 0;
+  		height: 60px;
+  		margin-top: 100px;
+  		background-color: #ffffff;
+	}
+
+	span#title{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	span#username{
+		font-size: 10px;
+		color: rgb(62,138,204);
+	}
+	span#meta{
+		font-size: 10px;
+	}
+	p#description, p#review{
+		font-family: "Roboto";
+   		font-weight: 300;
+	}
+
+	a:hover{
+		color: #00CED1;
+	}
+
+	.review{
+		
+	    margin-bottom: 30px;
+	}
+
+	.shift-right-xs{
+		margin-left: 2px;
+	}
+
+	.shift-right-sm{
+		margin-left: 10px;
+	}
+
+	.shift-right-md{
+		margin-left: 20px;
+	}
+
+	.shift-right-lg{
+		margin-left: 50px;
+	}
+
+	.push-down-xxl{
+		margin-top: 900px;
+	}
+
+	.push-down-xl{ /* make xl */
+		margin-top: 200px;
+	}
+
+	.push-down-lg{
+		margin-top: 150px;
+	}
+	
+	.push-down-md{
+		margin-top: 100px;
+	}
+	.push-down-sm{
+		margin-top: 75px;
+	}
+
+	.push-down-xs{
+		margin-top: 25px;
+	}
+	
+	.top-game-header{
+		color: #00CED1;
+		font-family: "Roboto";
+   		font-weight: 100;
+  		font-size: 80px;
+		line-height: 80px;
+	}
+	
+	.top-game-link{
+		text-decoration: none !important;
+		color: #7E7E7E;
+		font-family: "Roboto";
+   		font-weight: 300;
+
+	}
+
+	.null-rating-error{
+		color: #A94442;
+	}
+
+	.inner-page-header{
+		color: #00CED1;
+		font-family: "Roboto";
+   		font-weight: 100;
+  		font-size: 40px;
+	}
+
+	.top-game-link:hover{
+		color: #00CED1;
+	}
+
+
+	.contact{
+		font-family: 'Shadows Into Light';
+		font-size: 20px;
+		color: #F20318;
+	}
+	.contact:hover{
+		font-style: italic;
+		color: #F20318;
+	}
+	.top-game-covers{
+		margin-bottom: 30px;
+	}
+
+	.btn.btn-primary{
+		background:  #7E7E7E !important;
+		border-color:  #7E7E7E !important;
+	}
+
+	.btn.btn-primary:hover{
+		background: #00CED1 !important;
+		border-color: #00CED1 !important;
+	}
+
+    li > a > i{
+    	
+    	font-size: 25px !important;
+    }
+
+    .confirmation-message{
+
+    	font-size: 17px;
+    }
+
+    .confirmation-message ~ a{
+		font-size: 12px;
+		color: #F43A75;
+    }
+
+	@media screen and (max-width: 768px){
+		.top-game-header{
+			font-size: 40px;
+		}
+		.page-header{
+			text-align: center;
+		}
+	}

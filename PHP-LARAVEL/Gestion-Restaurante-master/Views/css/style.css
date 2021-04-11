@@ -1,0 +1,242 @@
+body {
+     
+    background-image: url(../img/fondo/fondo.jpg);
+    background-size: auto;
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 600;
+}
+
+.container {
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background: linear-gradient(to bottom, #3e0404 0%, #cebfb3 40%, #cebfb3 65%, #3e0404 100%);
+    width: 100%;
+    margin: 25px auto 0 auto;
+    border-left: 1px solid #2a0303;
+    border-right: 1px solid #2a0303;
+    border-top: 5px solid #2a0303;
+    border-bottom: 5px solid #2a0303;
+    box-shadow: 0px 0px 20px 2px #3e0404;
+    
+}
+
+.banner {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+footer {
+    
+    display: flex;
+    height: 50px;
+    border: 1px solid black;
+    background: linear-gradient(to bottom, #3e0404 0%, #cebfb3 40%, #cebfb3 65%, #3e0404 100%);
+    box-shadow: 0px 0px 20px 1px #3e0404;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+ul {
+    
+    list-style: none;
+    margin: 0;
+}
+
+.autor {
+    float: right;
+    margin-right: 10px;
+}
+
+.contenido {
+    
+    margin: 0 auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    min-height: 550px;
+    box-shadow: 0px 0px 10px 1px #3e0404;
+    background-color: rgba(173, 161, 150, 0.75);
+    padding-bottom: 50px;
+}
+
+.tituloHeader {
+    
+    width: 100%;
+    padding-left: 10px;
+    white-space: nowrap;
+    
+}
+
+.logout {
+    
+    display: inline-flex;
+    width: 100%;
+    align-self: flex-end;
+    justify-content: flex-end;
+    white-space: nowrap;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    flex-shrink: 2;
+}
+
+.logout a {
+    margin-left: 15px;
+}
+
+input.errorForm {
+    border: 2px solid red;
+}
+
+input.valid {
+    border: 2px solid green;
+}
+
+label.errorForm {
+    position:absolute;
+    padding: 5px 5px;
+    top: -40px;
+    left: 0px;
+    color:#000;
+    background:#f3961c; 
+    background:linear-gradient(#f9d835, #f3961c);
+    border-radius:10px;
+    
+}
+
+label.errorForm:after {
+    content:"";
+    position:absolute;
+    bottom:-15px;
+    left:50px; 
+    border-width:15px 15px 0; 
+    border-style:solid;
+    border-color:#f3961c transparent;
+    display:block;
+    width:0;
+}
+
+.successRespuesta {
+    
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background: linear-gradient(to bottom, #348b47, #c5efc1, #c5efc1, #348b47);
+    border-radius: 5px;
+    opacity: 0.95;
+    color: #002f00;
+    padding-left: 10px;
+    margin: 5px 0;
+}
+
+.errorRespuesta {
+    
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background: linear-gradient(to bottom, #ac4747, #ffc2c2, #ffc2c2, #ac4747);
+    border-radius: 5px;
+    opacity: 0.95;
+    color: #3c0000;
+    padding-left: 10px;
+    margin: 5px 0;
+}
+
+button {
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    overflow: hidden;
+    border: 0;
+    
+}
+
+button:active {
+    width: 98px;
+    height: 28px;
+    border: 2px solid grey;
+}
+
+.cancelar {
+    box-shadow: 0px 0px 20px 0px red inset;    
+}
+
+.aceptar {
+    box-shadow: 0px 0px 20px 0px green inset;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    overflow: hidden;
+    border: 0;
+}
+
+.aceptar:active {
+	width: 98px;
+    height: 28px;
+    border: 2px solid grey;
+}
+
+.icon {
+    
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0 5px;
+    
+}
+
+.imgCategoria {
+    
+    max-width: 50px;
+    max-height: 50px;
+    vertical-align: middle;
+    
+}
+
+.imgCategoriaBig {
+    
+    max-width: 75px;
+    max-height: 75px;
+    vertical-align: middle;
+    
+}
+
+.imgProducto {
+    
+    max-width: 100px;
+    max-height: 100px;
+    vertical-align: middle;
+    
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+input[type="file"] {
+    font-size: 14px;
+}
+
+.relative {
+    position: relative;
+    display: inline-block;
+    white-space:nowrap
+}

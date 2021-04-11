@@ -1,0 +1,15 @@
+#form{
+	text-align: center;
+	border: 1px solid blue;
+	background-color: #1BD0EB;
+}
+
+tr,td{
+	border: 1px solid blue;
+}
+
+#edit{
+	text-align: center;
+	border: 1px solid orange;
+	background-color: #1BD0EB;
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "06-composer/ejercicio2",
+  "require": {
+    "monolog/monolog" : "2.0.1"
+  },
+  "autoload": {
+
+  }
+}

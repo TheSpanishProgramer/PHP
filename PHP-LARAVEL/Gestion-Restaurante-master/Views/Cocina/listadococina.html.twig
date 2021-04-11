@@ -1,0 +1,14 @@
+<ul>
+    {% for dato in datos %}
+      
+    <li data-id = "{{ dato.detpedido }}">
+        <div>
+            <h1>{{ dato.producto }}</h1>
+            <p>Para: {{ dato.usuario }}</p>
+        </div>
+        <div class="divImg">
+            <img class="icon servirPedido pointer" src="../../Views/img/enviar.png">
+        </div>
+    </li>
+    {% endfor %}
+</ul>

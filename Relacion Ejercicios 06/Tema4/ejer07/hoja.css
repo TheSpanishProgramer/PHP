@@ -1,0 +1,40 @@
+
+body{
+  background-color: black;
+  text-align: center;
+}
+input[type=number]{
+  height: 50%;
+  width: 100%;
+  font-size: 3200%;
+  color: #0dff00;
+  background-color: black;
+  border: none;
+}
+input[type=submit]{
+  display: none;
+  height: 50%;
+  width: 100%;
+  font-size: 3200%;
+  color: #0dff00;
+  background-color: black;
+}
+div#mensajeIntentos{
+  color: #0dff00;
+  font-size: 200%;
+}
+div#mensajeFinalno{
+  color: red;
+  font-size: 800%;
+  margin-top: 15%;
+  text-decoration: blink;
+  -moz-text-blink: blink;
+}
+div#mensajeFinalsi {
+  color: green;
+  font-size: 800%;
+  margin-top: 15%;
+  text-decoration: blink;
+  -moz-text-blink: blink;
+}
+
